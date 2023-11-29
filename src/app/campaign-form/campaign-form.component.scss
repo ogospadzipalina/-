@@ -1,0 +1,32 @@
+.form {
+  &__title {
+    color: blueviolet;
+  }
+
+  &__main {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
+    &__input {
+      width: 50%;
+      height: 30px;
+      border-radius: 10px;
+      border: 1px solid black;
+
+    }
+
+    &__campaignName {
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+    }
+
+    &__submit {
+      width: 20%;
+      background-color: purple;
+      color: aliceblue;
+      height: 30px;
+    }
+  }
+}
